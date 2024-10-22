@@ -14,21 +14,21 @@ def bubble_sort(arr):
 
 i = 0
 lista = []
-while(i <= 10000):
+while(i <= 5000):
     h = random.randrange(0, 1000)
     lista.append(h)
     i = i+1
 
 
-print(lista)
+
 inicio = time.time()
 
 # Código a medir
 # -------------
 
-print(bubble_sort(lista))
+bubble_sort(lista)
 
 time.sleep(1)
 
 fin = time.time()
-print(fin-inicio) # 1.0005340576171875
+print(fin-inicio) 
